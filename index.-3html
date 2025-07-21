@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./src/output.css" rel="stylesheet" />
+
+    <title>Proyek Tailwind Sederhana</title>
+  </head>
+  <body>
+    <section class="bg-white p-6 rounded-lg shadow mb6">
+      <div class="grid md:grid-cols-2 gap-4">
+        <div>
+          <h1 class="font-semibold mb-2">Font Size:</h1>
+          <p class="text-sm text-red-500">The quick brown fox ...</p>
+          <p class="text-base text-yellow-300">The quick brown fox ...</p>
+          <p class="text-lg text-green-500">The quick brown fox ...</p>
+          <p class="text-2xl text-orange-400">The quick brown fox ...</p>
+          <p class="text-2xl text-indigo-400">The quick brown fox ...</p>
+          <p class="text-2xl text-bold">The quick brown fox ...</p>
+          <p class="text-2xl font-inter font-semibold text-[#421ABC]">
+            Ini adalah font Inter with custom color
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- MATERI GRID -->
+    <section class="bg-white p-6 rounded-lg shadow mb-6">
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-blue-300">01</div>
+        <div class="bg-blue-300">02</div>
+        <div class="bg-blue-500">03</div>
+        <div class="bg-blue-300">04</div>
+        <div class="bg-blue-500">05</div>
+        <div class="bg-blue-800">06</div>
+        <div class="bg-blue-900">07</div>
+        <div class="bg-blue-200">08</div>
+      </div>
+    </section>
+
+    <section>
+      <div class="bg-gray-100 p-4">
+        <div class="bg-red-300 m-2 p-2">m-2</div>
+        <div class="bg-red-300 m-4 p-2">m-4</div>
+      </div>
+
+      <!-- Materi FLEX -->
+
+      <div class="flex">
+        <div class="w-10 flex none bg-amber-500">01</div>
+        <div class="w-64 flex auto bg-amber-300">02</div>
+        <div class="w-32 flex auto bg-amber-700">03</div>
+      </div>
+    </section>
+
+    <!-- Overflow Auto -->
+    <section class="m-100">
+      <div class="overflow-auto max-h-32 max-w-200">
+        <p>
+          Konten yang panjang akan bisa di-scroll secara otomatis. Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Quaerat, autem corrupti
+          hic odio voluptatum beatae dignissimos repellat ducimus neque minus,
+          adipisci quibusdam aperiam delectus? Repellat sequi facilis inventore
+          quas quam cum eius atque quidem ea voluptate placeat modi
+          reprehenderit, itaque, at sint blanditiis minus nesciunt perferendis
+          sunt eligendi quis deserunt explicabo assumenda iusto? Mollitia,
+          libero, doloribus totam nemo enim possimus obcaecati consequatur quis
+          autem consequuntur alias facere aliquid expedita blanditiis.
+          Praesentium, eligendi nemo cum repellendus eius aperiam voluptatibus.
+          Quam velit quidem suscipit voluptatum veniam excepturi qui nobis
+          alias, dolore, ex temporibus fuga! Assumenda asperiores repudiandae
+          nam fugit nulla illum ea, libero aliquid voluptatum voluptatem nemo
+          ex. Porro reiciendis facilis labore rem dignissimos quod molestiae
+          laboriosam quae autem officia sit, mollitia ipsam consectetur libero
+          recusandae! Magnam facere repellendus, cumque itaque repudiandae
+          aspernatur reiciendis laudantium enim nesciunt hic iusto harum quasi
+          sed? Inventore explicabo ipsa dolor nihil minus dignissimos corporis
+          ex voluptatum cum ab fugit minima provident praesentium dicta,
+          perferendis quibusdam fugiat placeat maiores veritatis harum est
+          eaque! Alias perferendis vero, voluptatum nobis temporibus minus animi
+          earum iusto placeat natus voluptatibus laboriosam quaerat aut velit.
+          Corrupti explicabo incidunt quos, molestiae dolorum alias beatae
+          repudiandae dicta assumenda doloremque, consectetur error commodi
+          voluptates nisi!
+        </p>
+      </div>
+    </section>
+    <!-- Overflow Hidden -->
+    <div class="overflow-hidden max-h-32"></div>
+  </body>
+</html>

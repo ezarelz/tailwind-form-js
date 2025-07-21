@@ -1,0 +1,21 @@
+# Tailwind CSS build output
+output.css
+
+# Node modules
+node_modules/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log & debug files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment (if you add .env later)
+.env
+
+#Dump Files
+index-2.html
+index-3.html
